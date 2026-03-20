@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios 19/03</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <p>Ingresa tu nombre</p>
+    <input type="text" id="nombre" />
+    <h1 id="Mostrartexto"></h1>
+
+    <p>Ingresa tu edad</p>
+    <input type="text" id="edad" />
+    <h1 id="MostraredadCanina"></h1>
+
+    <p>Ingresa tu nombre</p>
+    <input type="text" id="nombre2" />
+    <p>Ingresa tu apellido</p>
+    <input type="text" id="apellido" />
+    <button id="BtnEnviar">Enviar</button>
+    <h1 id="MostrarNombre"></h1>
+
+    <p>Contador</p>
+    <button id="btnSumar">Haz click y suma 1</button>
+    <h2 id="num">0</h2>
+
+    <p>IVA</p>
+    <input id="p" type="number" placeholder="Precio" />
+    <button id="btnIva">Calcular</button>
+    <p>IVA: <span id="iva"></span></p>
+    <p>Total: <span id="total"></span></p>
+
+    <h2>Convertidor de dólares</h2>
+    <input type="number" id="dolares" placeholder="Dólares" />
+    <button onclick="convertir()">Convertir</button>
+    <p id="resultado"></p>
+
+
+    <h2 id="estado">ENCENDIDO</h2>
+    <button onclick="cambiar()">Cambiar</button>
+
+
+    <h2>Validador</h2>
+    <input type="text" id="campo" placeholder="Escribe algo" />
+    <button onclick="validar()">Validar</button>
+
+
+    <h2>Agrandador</h2>
+    <p id="texto">Este texto crecerá</p>
+    <button onclick="agrandar()">Aumentar</button>
+
+
+    <h2>RGB</h2>
+    <input type="number" id="r" placeholder="R" />
+    <input type="number" id="g" placeholder="G" />
+    <input type="number" id="b" placeholder="B" />
+    <button onclick="mezclar()">Mezclar</button>
+    <div id="caja" style="width:100px; height:100px; background:black;"></div>
+
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
